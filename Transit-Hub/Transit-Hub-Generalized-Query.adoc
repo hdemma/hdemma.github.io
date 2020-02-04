@@ -1,0 +1,31 @@
+
+
+here are some queries and visualizations that I want to produce this month from the data. I will like to show these to CARTA when I visit them on December 2.  Lets discuss this on Monday.  We will meet at 10 AM in my office.
+1. Energy consumption averaged by route segments averaged by hour for both electric vehicles and non-electric vehicles.
+2. Average speed by route segments averaged by hour for both electric vehicles and non-electric vehicles.
+3. Stop times across a route
+4. Overpass turbo looks good. Were you able to use it. Will it use neo4j underneath or will it directly query against pulsar
+
+The gen
+1. Routes
+1. Route Segment
+1. Metric
+1. Statistic
+1. Time Grain Size
+1. Time Window
+
+## Routes
+
+### Route Segment
+
+
+## Metric
+
+
+## Statistic
+
+
+### Time Grain Size
+
+
+### Time Window
