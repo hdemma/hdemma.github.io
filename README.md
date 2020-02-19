@@ -6,3 +6,21 @@ This is a project funded by Department of Energy for creating high-resolution sy
 
 The project is also developing new distributed machine learning methods that can handle data at such rate and scale. These machine learning methods will enable  high-resolution energy consumption predictors, contextualized with features such as vehicle types and events in the city. Having these predictors combined with traffic congestion information obtained from external sources will enable the agencies to identify and mitigate energy efficiency bottlenecks within each specific mode of operation such as electric bus and electric car.
 
+# OpenStreetMap (OSM) real street address dataset
+
+Folder Name: Dataset/OSM
+1) chattanooga_osm.shp
+2) chattanooga_osm.shx
+3) chattanooga_osm.cpg
+4) chattanooga_osm.prj
+5) chattanooga_osm.dbf
+
+# Traffic Data
+Folder Name: Dataset/Traffic
+OSM to TMC Conversion Data: osm_tmc_matching_ids.pickle
+Traffic Data for each TMC id: All_TMC_TrafficData_ED.csv
+Hourly Averages calculated over the span of 2 months.
+
+# Training Samples for Prediction
+Final Training Samples for Electric: Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv
+Final Training Samples for Diesel: Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv
