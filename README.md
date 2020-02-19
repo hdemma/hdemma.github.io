@@ -9,6 +9,7 @@ The project is also developing new distributed machine learning methods that can
 # OpenStreetMap (OSM) real street address dataset
 
 Folder Name: Dataset/OSM
+
 1) chattanooga_osm.shp
 2) chattanooga_osm.shx
 3) chattanooga_osm.cpg
@@ -17,6 +18,7 @@ Folder Name: Dataset/OSM
 
 # Traffic Data
 Folder Name: Dataset/Traffic
+
 OSM to TMC Conversion Data: osm_tmc_matching_ids.pickle
 Traffic Data for each TMC id: All_TMC_TrafficData_ED.csv
 Hourly Averages calculated over the span of 2 months.
