@@ -23,6 +23,5 @@ Traffic Data for each TMC ID: `All_TMC_TrafficData_ED.csv`
 (hourly averages calculated over the span of 2 months)
 
 # Training Samples for Prediction
-
-Training Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
-Training Samples for Diesel: `Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv`
+- Training Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
+- Training Samples for Diesel: `Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv`
