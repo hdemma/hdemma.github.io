@@ -8,20 +8,34 @@ The project is also developing new distributed machine learning methods that can
 
 Folder Name: `Dataset/OSM`
 
-1) `chattanooga_osm.shp`
-2) `chattanooga_osm.shx`
-3) `chattanooga_osm.cpg`
-4) `chattanooga_osm.prj`
-5) `chattanooga_osm.dbf`
+- `chattanooga_osm.shp`
+- `chattanooga_osm.shx`
+- `chattanooga_osm.cpg`
+- `chattanooga_osm.prj`
+- `chattanooga_osm.dbf`
+
+# Vehicle Telemetry Data
+
+- [Gillig 148](http://aronlaszka.com/data/Gillig148_2019-08-22-0000_2019-10-16-0000.csv)
+- [Gillig 149](http://aronlaszka.com/data/Gillig149_2019-08-22-0000_2019-10-16-0000.csv)
+- [Gillig 150](http://aronlaszka.com/data/Gillig150_2019-08-22-0000_2019-10-16-0000.csv)
+- [BYD 751](http://aronlaszka.com/data/BYD751_2019-08-01-0000_2019-10-01-0000.csv)
+- [BYD 752](http://aronlaszka.com/data/BYD752_2019-08-01-0000_2019-10-01-0000.csv)
+- [BYD 753](http://aronlaszka.com/data/BYD753_2019-08-01-0000_2019-10-01-0000.csv)
 
 # Traffic Data
 
 Folder Name: `Dataset/Traffic`
 
-OSM to TMC Conversion Data: `osm_tmc_matching_ids.pickle`
-Traffic Data for each TMC ID: `All_TMC_TrafficData_ED.csv`
+- OSM to TMC Conversion Data: `osm_tmc_matching_ids.pickle`
+- Traffic Data for each TMC ID: `All_TMC_TrafficData_ED.csv`
 (hourly averages calculated over the span of 2 months)
 
+# Weather Data
+
+[2019 August to October](http://aronlaszka.com/data/2019_Weather_August_to_October.csv)
+
 # Samples for Energy Prediction
+
 - Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
 - Samples for Diesel: `Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv`
