@@ -35,6 +35,10 @@ Folder Name: `Dataset/Traffic`
 
 [2019 August to October](http://aronlaszka.com/data/2019_Weather_August_to_October.csv)
 
+# Elevation Data
+
+[State of Tennessee / GIS Data](https://www.tn.gov/finance/sts-gis/gis/data.html)
+
 # Samples for Energy Prediction
 
 - Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
