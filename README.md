@@ -41,5 +41,6 @@ Folder Name: `Dataset/Traffic`
 
 # Samples for Energy Prediction
 
-- Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
-- Samples for Diesel: `Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv`
+- Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
+- Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv
+)
