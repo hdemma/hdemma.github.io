@@ -96,4 +96,15 @@ Figure below summarizes these steps
 - Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
 
 
+# Micro Prediction Models
+
+In addition to the macro energy models which are applicable for route specific analysis, we also worked on developing micro models that are finely tuned to individual vehicles. These models are essential to estimate energy consumption under various traffic control and operational strategies. Thus, they are widely used by researchers and transportation practitioners in evaluating benefits and comparing traffic control and operational strategies. Based on a comprehensive literature review of energy consumption models of EVs (described earlier), we can conclude that there is a knowledge gap for electric bus energy prediction models.
+
+For this purpose we developed an ensemble of neural network-based EV bus prediction models (see Figure I.1.5) that achieves better accuracy performance compared with regular regression models, and accuracy performance comparable to physical based models. The decision tree of these models is shown below.
+
+![Micro Models](images/micromodels.png)
+
+
+The models cover three different driving situations: regenerative braking (acceleration < -2 ft/s2); aggressive acceleration (acceleration > 2 ft/s2); and cruising (acceleration between -2 and 2 ft/s2). The accuracy of the three models outperforms the single model for predicting all driving conditions. This is primarily because these three different scenarios are effectively three different modes, and energy consumption dynamics vary significantly between them. 
+
 
