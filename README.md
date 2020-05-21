@@ -1,4 +1,4 @@
-Home page : The public site is available here: https://hdemma.github.io/
+The public site is available here: https://hdemma.github.io/
 
 # High-dimensional Data-driven Energy optimization for Multi-Modal transit Agencies (HD-EMMA)
 
