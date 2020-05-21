@@ -60,11 +60,15 @@ The vehicle telemetery data is available for three diesel vehicles and three ele
 
 [State of Tennessee / GIS Data](https://www.tn.gov/finance/sts-gis/gis/data.html)
 
-# Prediction Models
+# Macro Prediction Models
 
-Using telemetry from the ViriCiti DataHub and external data sources, including weather, elevation, street-level maps, and traffic, the team trained and evaluated models for predicting energy as shown in the figure below.
+Using telemetry from the ViriCiti DataHub and external data sources, including weather, elevation, street-level maps, and traffic, the team trained and evaluated models for predicting energy as shown in the figure below. The key idea of macro prediction models is to develop planning foresights which can enable us to estimate energy consumption of the whole fleet using macro data features such as road geometry, weather, traffic, and vehicle type. 
 
-![Prediction Workflow](images/energypredictionworkflow.png)
+
+![Prediction Model](images/Prediction.png)
+
+
+
 
 For EVs, the team collected the following features: timestamp, GPS-based position (latitude and longitude), battery current (A), battery voltage (V), battery state of charge (%), and charging cable status (0 or 1). For diesel and hybrid vehicles, instead of battery data, the team collected fuel level (%) and fuel used, in gallons. 
 For energy usage prediction, the team completed the following steps:
@@ -78,7 +82,11 @@ For energy usage prediction, the team completed the following steps:
 The prediction models used the following sample features: distance traveled, travel time, road types (e.g., motorway, residential), elevation change, weather features, and energy (fuel or electricity) consumed.
 The team applied three different approaches for creating prediction models: linear regression, deep feed-forward neural-network learning, and decision-tree regression. The team compared the performance of these approaches based on their mean prediction errors for the test datasets and found that decision tree regression results in the most accurate prediction. 
 
-## Notebooks showing the analysis
+Figure below summarizes these steps
+
+![Prediction Workflow](images/energypredictionworkflow.png)
+
+## Notebooks showing the Prediction analysis
 
 - [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [google colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
 
