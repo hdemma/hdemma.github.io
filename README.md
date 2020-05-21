@@ -66,8 +66,23 @@ Using telemetry from the ViriCiti DataHub and external data sources, including w
 
 ![Prediction Workflow](images/energypredictionworkflow.png)
 
+For EVs, the team collected the following features: timestamp, GPS-based position (latitude and longitude), battery current (A), battery voltage (V), battery state of charge (%), and charging cable status (0 or 1). For diesel and hybrid vehicles, instead of battery data, the team collected fuel level (%) and fuel used, in gallons. 
+For energy usage prediction, the team completed the following steps:
 
-## Samples for Energy Prediction
+1.	Data Cleansing: Based on the GPS positions, the team first removed all data points that were acquired when a vehicle was in the garage, and considered a vehicle leaving the garage to be the starting point for calculating energy consumption. For EVss, based on the charging cable status, the team also removed all data points that were acquired when a vehicle was charging.
+2.	Calculating and Verifying Energy Consumption: Next, the team computed the energy consumed between consecutive data points. For EVs, the team converted changes in the state of charge (%) values to energy consumption, in Joules, based on the total capacity of the battery (1.8 × 109 Joule for the CARTA vehicles). The team also computed energy consumption by integrating the product of the measured current and voltage values and verified that these consumption values coincided with changes in state of charge. Since the current and voltage-based values are more accurate than state of charge-based values, the team used the former in subsequent steps. For diesel and hybrid vehicles, the team performed similar steps with fuel level and fuel used.
+3.	Cleansing Locations and Mapping to Roads: The GPS based locations collected from the ViriCiti portal are inherently noisy, meaning some of the locations reported fall onto side-streets, where vehicles do not travel, onto parking lots, and even inside buildings. To remove noise, the team used a street-level map from OpenStreetMap. The team developed an algorithm that filters data and maps a GPS based location onto a street, considering previous and subsequent location measurements and various characteristics of nearby streets, and determines how likely it is that a vehicle travels on them. 
+4.	Sample Generation: Given the data points with street-level data, the team segmented time series into disjoint contiguous samples based on contiguous road segments, and, again, performed outlier detection and removal. 
+5.	Augmenting Samples with Elevation and Weather Data: For each sample, the team added features corresponding to elevation changes within the samples, and weathers features, such as temperature. 
+6.	Training and Test Sets: For each type of vehicle, the team created training and test sets by dividing samples randomly. For each vehicle type, the entire dataset spans more than 3 months of data, collected at 1 Hz.
+The prediction models used the following sample features: distance traveled, travel time, road types (e.g., motorway, residential), elevation change, weather features, and energy (fuel or electricity) consumed.
+The team applied three different approaches for creating prediction models: linear regression, deep feed-forward neural-network learning, and decision-tree regression. The team compared the performance of these approaches based on their mean prediction errors for the test datasets and found that decision tree regression results in the most accurate prediction. 
+
+## Notebooks showing the analysis
+
+- [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
+
+## Data Samples for Energy Prediction Models
 
 - Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
 - Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
