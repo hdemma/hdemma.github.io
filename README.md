@@ -52,25 +52,25 @@ The vehicle telemetery data is available for three diesel vehicles and three ele
 - [BYD 752](http://aronlaszka.com/data/BYD752_2019-08-01-0000_2019-10-01-0000.csv)
 - [BYD 753](http://aronlaszka.com/data/BYD753_2019-08-01-0000_2019-10-01-0000.csv)
 
-## Traffic Data
-
-
-
-Folder Name: `Dataset/Traffic`
-
-- OSM to TMC Conversion Data: `osm_tmc_matching_ids.pickle`
-- Traffic Data for each TMC ID: `All_TMC_TrafficData_ED.csv`
-(hourly averages calculated over the span of 2 months)
-
-# Weather Data
+## Weather Data
 
 [2019 August to October](http://aronlaszka.com/data/2019_Weather_August_to_October.csv)
 
-# Elevation Data
+## Elevation Data
 
 [State of Tennessee / GIS Data](https://www.tn.gov/finance/sts-gis/gis/data.html)
 
-# Samples for Energy Prediction
+# Prediction Models
 
-- Samples for Electric: `Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv`
-- Samples for Diesel: `Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv`
+Using telemetry from the ViriCiti DataHub and external data sources, including weather, elevation, street-level maps, and traffic, the team trained and evaluated models for predicting energy as shown in the figure below.
+
+![Prediction Workflow](images/energypredictionworkflow.png)
+
+
+## Samples for Energy Prediction
+
+- Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
+- Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
+
+
+
