@@ -1,3 +1,5 @@
+Home page : The public site is available here: https://hdemma.github.io/
+
 # High-dimensional Data-driven Energy optimization for Multi-Modal transit Agencies (HD-EMMA)
 
 This is a project funded by Department of Energy for creating high-resolution system-level data capture and analysis framework using Chattanooga Area Regional Transportation Authority (CARTA) as a case study. The system collects high-resolution datasets containing all information about engine idling status, engine temperature, engine speed, throttle, vehicle speed, state of charge, GPS, odometer, fuel usage and level, road gradient, and driver behavior in real-time from CARTA’s fleet of buses, car sharing, and e-bike sharing vehicles at a rate of 1Hz. 
