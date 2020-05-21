@@ -80,7 +80,7 @@ The team applied three different approaches for creating prediction models: line
 
 ## Notebooks showing the analysis
 
-- [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
+- [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [google colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
 
 ## Data Samples for Energy Prediction Models
 
