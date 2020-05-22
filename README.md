@@ -115,7 +115,8 @@ The models cover three different driving situations: regenerative braking (accel
 ## Notebooks showing the Micro Prediction Models
 
 ## Data Samples for Micro Prediction Models
-
+- Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_MicroModel_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
+- Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_MicroModel_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
 
 
 ## Publications
