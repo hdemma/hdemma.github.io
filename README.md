@@ -6,7 +6,7 @@ This is a project funded by Department of Energy for creating high-resolution sy
 
 The project is also developing new distributed machine learning methods that can handle data at such rate and scale. These machine learning methods will enable  high-resolution energy consumption predictors, contextualized with features such as vehicle types and events in the city. Having these predictors combined with traffic congestion information obtained from external sources will enable the agencies to identify and mitigate energy efficiency bottlenecks within each specific mode of operation such as electric bus and electric car.
 
-Project collaborators include [Chattanooga Regional Transit Authority](http://www.carta-bus.org), [Scope Lab at Vanderbilt University](https://scope-lab.org), the [University of Houston](http://aronlaszka.com/index.html), the University of South Carolina, Chattanooga Department of Transportation, the Enterprise Center, and the East Tennessee Clean Fuels Coalition. 
+Project collaborators include [Chattanooga Regional Transportation Authority](http://www.carta-bus.org), [Scope Lab at Vanderbilt University](https://scope-lab.org), the [University of Houston](http://aronlaszka.com/index.html), the University of South Carolina, Chattanooga Department of Transportation, the Enterprise Center, and the East Tennessee Clean Fuels Coalition. 
 
 # Research Approach
 
