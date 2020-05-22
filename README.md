@@ -114,6 +114,9 @@ The models cover three different driving situations: regenerative braking (accel
 
 ## Notebooks showing the Micro Prediction Models
 
+- [Electric Vehicles](Micro_Prediction_Models/EbusModel/Micro_EBUS_model.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Micro_Prediction_Models/EBusModel/Micro_EBUS_model.ipynb)
+
+
 ## Data Samples for Micro Prediction Models
 - Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_MicroModel_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
 - Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_MicroModel_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
