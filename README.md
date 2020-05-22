@@ -84,6 +84,9 @@ The figure below summarizes these steps
 
 ![Prediction Workflow](images/energypredictionworkflow.png)
 
+## Brief Description of Models
+- [Different Models] (Macro_Prediction_Models/readme.md). 
+
 ## Notebooks showing the Prediction Results
 
 - [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
