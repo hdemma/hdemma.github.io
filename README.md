@@ -93,6 +93,7 @@ Figure below summarizes these steps
 - Samples for Electric: [Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
 - Samples for Diesel: [Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
 
+## Publications
 
 Results and the problem setup is available from the following paper: [Data-Driven Prediction of Route-Level Energy Use for Mixed-Vehicle Transit Fleets](https://arxiv.org/abs/2004.06043).
 
@@ -112,6 +113,10 @@ The models cover three different driving situations: regenerative braking (accel
 
 ## Data Samples for Micro Prediction Models
 
+
+
+## Publications
+
 This work is pending publication and details will be released soon.
 
 # Optimization framework to select the optimal assignment of vehicles to trips with the goal of reducing overall energy consumption
@@ -120,6 +125,9 @@ EVs incur lower energy costs and environmental impact during operation than comp
 
 
 We have developed a novel problem formulation and algorithms for assigning a mixed fleet of transit vehicles to transit trips and for scheduling EV charging. The problem formulation is general and applies to any transit agency that has to provide fixed-route transit service using a mixed fleet. The objective is to minimize energy use (i.e., fuel and electric power use), which can be used to model minimizing operating costs and/or environmental impact with the appropriate cost factors. To solve the problem, the team introduced an integer program, as well as domain specific heuristic and genetic algorithms. The team evaluated the algorithms on CARTA’s transit routes using the macro-level energy predictors to evaluate the objective. The results show that the heuristic and genetic algorithms are scalable in terms of computation time, and they provide near-optimal results.
+
+
+## Publications
 
 Results and the problem setup is available from the following paper: [Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service](https://arxiv.org/abs/2004.05146)
 
