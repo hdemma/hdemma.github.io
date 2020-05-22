@@ -22,16 +22,26 @@ Energy Consumption (gallons or Watt-seconds)
 Based on our experiments, we found that different network structures work best for diesel and electric vehicles.
 
 For Electric vehicles, the best model has 
-	•	One input layer 	- Has one neuron for each predictor variable 
-	•	Two hidden layers  	- Have 100 neurons and 80 neurons, respectively 	- Both layers have ‘sigmoid’ activation function 
-	•	One output layer.  	- Linear activation function 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 100 neurons and 80 neurons, respectively 	
+		- Both layers have ‘sigmoid’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
 
 The model is optimized using adam optimizer with a default learning rate 0.001
 
 For Diesel vehicles, the best model has 
-	•	One input layer 	- Has one neuron for each predictor variable 
-	•	Five hidden layers  	- 400, 200, 100, 50, and 25 neurons, respectively. 	- All the layers have ‘sigmoid’ activation function 
-	•	One output layer.  	- Linear activation function 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Five hidden layers  	
+		- 400, 200, 100, 50, and 25 neurons, respectively. 	
+		- All the layers have ‘sigmoid’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
 
 The model is optimized using adam optimizer with a default learning rate 0.001.
 
