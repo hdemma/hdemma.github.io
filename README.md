@@ -85,7 +85,7 @@ The figure below summarizes these steps
 ![Prediction Workflow](images/energypredictionworkflow.png)
 
 ## Brief Description of Models
-- [Different Models] (Macro_Prediction_Models/readme.md). 
+- [Different Models](Macro_Prediction_Models/readme.md). 
 
 ## Notebooks showing the Prediction Results
 
