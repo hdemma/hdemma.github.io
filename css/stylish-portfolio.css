@@ -120,6 +120,9 @@ h6 {
   .map {
     height: 75%;
   }
+  #contact{
+    display:none;
+  }
 
 .table-bordered{
 

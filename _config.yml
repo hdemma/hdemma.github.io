@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "StatResp"
+name                     : &name "SmartTransit"
 description              : &description ""
-url                      : https://statresp.ai # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://SmartTransit.ai # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "statresp/statresp.github.io"
+repository               : "smarttransit-ai/smarttransit-ai.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "StatResp"
+  name             : "SmartTransit"
   avatar           : "smokiesCropped.png"
   bio              : "An open-source tool for Spatial-Temporal Incidence Analysis"
   location         : "Stanford, California"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "StatResp"
+  github           : "SmartTransit"
   google_plus      :
   keybase          :
   instagram        :

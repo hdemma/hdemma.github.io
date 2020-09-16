@@ -143,9 +143,9 @@ redirect_from:
       <div class="content-section-heading text-center">       
          <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Project Activities</h2>
       </div>
-      <div class="row no-gutters">
+      <div class="row no-gutters justify-content-center">
           {% for act in sortedactivities %}
-          <div class="col-lg-6 pb-2 pt-2  mb-2 mt-2">
+          <div class="col-lg-5 p-3   m-3 ">
          {% if act.link != blank  or  act.link != nil %}
     <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="{{ act.link }}"></iframe>
@@ -171,11 +171,7 @@ redirect_from:
   <!-- Map -->
   <div id="contact" class="map">
   <iframe src="https://www.google.com/maps/d/embed?mid=1ZnAR4JdHNF5K3rW9cICXqBGuvwmchIy9&hl=en" width="100%"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </div>
+   </div>
 
 
       
