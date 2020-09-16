@@ -1,0 +1,25 @@
+
+
+
+## Our story
+
+When confronted with a new question, we create a jupyter-notebook to get the data and produce an artifact which addresses the question.
+
+
+### The data chapter
+
+All data enters via a pulsar-source-connectors, and is subsequently structured into databases.
+The pulsar-source-connectors are written in kotlin and deployed to the pulsar-broker nodes (for reliability via redundancy).
+
+
+### The process chapter
+
+Jupyter-notebook is reworked to produce a set of widget suitable for use in https://panel.holoviz.org/
+
+link:Transit-Hub-Generalized-Query.adoc
+
+
+### The operator chapter
+
+Traffic specialists will be able to create these dashboards from the provided widgets.
+

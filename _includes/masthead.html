@@ -1,0 +1,29 @@
+{% include base_path %}
+
+<div class="container-fluid align-left  bg-dark text-white" id="banner">
+  <div class="row">
+    <div class="col-12 masthead2">
+      <h3 class="mdc-typography--headline3 p-2" ><a href="{{ base_path }}/">SmartTransit.ai </a>
+        <div id="explanation"> - Optimizing Multi-modal Mixed Fleet Transit Operations</div></h3> 
+    </div>
+</div>
+</div>
+
+<!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"><a class="js-scroll-trigger" href="{{ base_path }}/">{{ site.title }}</a></li>
+       {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+    </ul>
+  </nav>
+

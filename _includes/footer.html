@@ -1,0 +1,30 @@
+{% include base_path %}
+ <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+         {% if site.facebook.username %}
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://facebook.com/{{ site.facebook.username }}">
+            <i class="icon-social-facebook"></i>
+          </a>
+        </li>
+            {% endif %}
+              {% if site.twitter.username %}
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/{{ site.twitter.username }}">
+            <i class="icon-social-twitter"></i>
+          </a>
+            
+        </li>
+        {% endif %}
+        {% if site.author.github %}
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="http://github.com/{{ site.author.github }}">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; ScopeLab 2020</p>
+    </div>
+  </footer>
