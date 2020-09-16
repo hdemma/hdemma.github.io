@@ -81,7 +81,7 @@ redirect_from:
 <!--Title-->
 <!-- <h5 class="card-title">Optimizing Transit Operations</h5> -->
 <!--Text-->
-<p class="card-text text-justify">We work with Chattanooga Regional Transit Authority and Nashville WeGo to enable efficient transit operations by using artifical intelligence and real-time data analysis at scale. This includes reinforcement learning,  monte-carlo tree search and operations research based optimization for system-wide integrated scheduling and dispatch of transit operations. As part of this work we are also developing models to estimate loading factors and real-time energy consumption of mixed vehicle transit fleets and use those models to predict and optimize operations for lowering overall energy impact while ensuring the system wide capacity remains unaffected.</p>
+<p class="card-text text-justify">We work with Chattanooga Regional Transit Authority and Nashville WeGo to enable efficient transit operations by using artificial intelligence and real-time data analysis at scale. This includes reinforcement learning,  Monte-Carlo tree search, and operations research-based optimization for system-wide integrated scheduling and dispatch of transit operations. As part of this work, we are also developing models to estimate loading factors and real-time energy consumption of mixed vehicle transit fleets and use those models to predict and optimize operations for lowering overall energy impact while ensuring the system-wide capacity remains unaffected.</p>
 <!-- <a href="#about" class="btn btn-dark js-scroll-trigger" href="#about"></a> -->
 </div>
 </div>
