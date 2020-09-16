@@ -1,0 +1,55 @@
+---
+---
+<div class="text-justify">
+    {{reference}}
+</div>
+
+
+
+
+<button class="button0" style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;" onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
+{% if entry.abstract %}
+<button class="button0"  style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;" onclick="toggleAbstract{{entry.key}}()">Abstract</button>
+
+{% endif %}
+{% if entry.doi %}
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><button class="button0" style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;">DOI</button></a>
+{% endif %}
+{% if entry.preprint %}
+<a href="{{ entry.preprint }}"><button class="button0" style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;">PREPRINT</button></a>
+{% endif %}
+{% if link %}
+<a href="{{link}}"><button class="button0" style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;">PDF</button></a>
+{% endif %}
+{% if links['slides.pdf'] %}
+<a href="{{links['slides.pdf']}}"><button class="button0" style="background-color: #65bdde;border: none;color: white;padding: 2px 4px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold;margin: 2px 1px;cursor: pointer;border-radius: 5px;">SLIDES</button></a>
+{% endif %}
+{% if entry.code %}
+<a href="{{ entry.code }}"><input type='button' class='button3' value='code'/></a>
+{% endif %}
+
+<div id="a{{entry.key}}" class="content" style="display:none"><pre>{{entry.bibtex}}</pre></div>
+
+{% if entry.abstract %}
+<div id="abstract{{entry.key}}" class="content" style="display:none;background-color: #f5f5f5;font-family: Courier New, monospace;font-size: 0.9em;"><p></p>{{entry.abstract}}</p></div>
+<script>
+    function toggleAbstract{{entry.key}}(parameter) {
+        var x= document.getElementById('abstract{{entry.key}}');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+{% endif %}
+<script>
+function toggleBibtex{{entry.key}}(parameter) {
+    var x= document.getElementById('a{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>

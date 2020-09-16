@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.vscode/settings.json
+.bundle/config
+bootstrap-4.5.2-dist.zip
+background.pptx
+_pages/<p class="text-faded mb-0">.md
+Gemfile.lock
+vendor/bundle
+.DS_Store
+_bibliography/refs.bib.bak

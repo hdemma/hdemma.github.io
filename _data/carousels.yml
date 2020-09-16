@@ -1,0 +1,66 @@
+- video: video/carta1.mp4
+  captionhead: Optimizing Transit Operations
+  text: We work with Chattanooga Regional Transit Authority and Nashville WeGo to enable efficient transit operations by using artifical intelligence and real-time data analysis at scale. This includes reinforcement learning,  monte-carlo tree search and operations research based optimization methods for system-wide integrated scheduling and dispatch of transit operations. As part of this work we are also developing models to estimate loading factors and real-time energy consumption of mixed vehicle transit fleets and use those models to predict and optimize operations for lowering overall energy impact while ensuring the system wide capacity remains unaffected. 
+  active: true
+  sequence: 1
+
+- image: video/energy.png
+  captionhead: Energy Consumption Analysis and Prediction
+  text: We are developing models to analyze real-time energy consumption of mixed vehicle transit fleets and use those models to predict and optimize operations for lowering overall energy impact while ensuring the system wide capacity remains unaffected. 
+  active: false
+  sequence: 2
+
+
+- image: video/aiengine.png
+  captionhead: Backgroud Operations
+  text: Background Test is here
+  active: false
+  sequence: 3
+
+
+- image: video/aiengine2.png
+  captionhead: Backgroud Operations
+  text: Background Test is here
+  active: false
+  sequence: 4
+
+
+
+
+# - video: video/energy.mp4
+#   captionhead: AI-Based Complete Trip Scheduling and Dispatch for Fixed Line, Paratransit and Microtransit
+#   text: We are developing novel reinforcement learning, monte-carlo tree search and operations research optimization methods for system-wide integrated scheduling and dispatch of transit operations. 
+#   active: false
+#   sequence: 1
+
+
+# - video: video/aiengine3.mp4
+#   captionhead: AI-Based Complete Trip Scheduling and Dispatch for Fixed Line, Paratransit and Microtransit
+#   text: We are developing novel reinforcement learning, monte-carlo tree search and operations research optimization methods for system-wide integrated scheduling and dispatch of transit operations. 
+#   active: false
+#   sequence: 1
+
+
+
+# - image: video/energy.png
+#   captionhead: Energy Consumption Analysis and Prediction
+#   text: We are developing models to analyze real-time energy consumption of mixed vehicle transit fleets and use those models to predict and optimize operations for lowering overall energy impact while ensuring the system wide capacity remains unaffected. 
+#   active: false
+#   sequence: 2
+
+
+# - image: img/bg-masthead.jpg
+#   captionhead: Backgroud Operations
+#   text: Background Test is here
+#   active: false
+#   sequence: 1
+
+
+# - video: video/thub.mp4
+#   captionhead: Transit Hub
+#   text: Providing Context Sensitive Delay, Position and Occupancy Information to Commuters
+#   active: false
+#   sequence: 1
+ 
+
+
