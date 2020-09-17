@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "SmartTransit.Ai"
+title: "Smart Transit Systems"
 excerpt: "About SmartTransit.ai"
 author_profile: true
 layout: single
