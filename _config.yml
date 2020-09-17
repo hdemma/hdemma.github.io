@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "SmartTransit"
+  name             : "ScopeLab.ai"
   avatar           : "smokiesCropped.png"
-  bio              : "An open-source tool for Spatial-Temporal Incidence Analysis"
-  location         : "Stanford, California"
+  bio              : "Tools for Analysis and Dispatch in Transit Operations"
+  location         : "Nashville, TN"
   employer         :
   pubmed           : 
   googlescholar    : ""
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "SmartTransit"
+  github           : "SmartTransit-ai"
   google_plus      :
   keybase          :
   instagram        :
