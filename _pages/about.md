@@ -50,7 +50,7 @@ redirect_from:
   
   <section class="content-section" id="aboutus">
     <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 text-center m-0 p-0">About us</h2>
+      <h2 class="mdc-typography--headline2 text-center m-0 p-0">About Us</h2>
     </div>
     <div class="container-fluid p-2 m-2">
         We are a research team that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
