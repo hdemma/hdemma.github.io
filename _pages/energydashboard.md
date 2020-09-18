@@ -1,5 +1,5 @@
 ---
-permalink: /energy-dashboard/
+permalink: /energydashboard/
 title: "CARTA Energy Dashboard"
 excerpt: "CARTA Energy Dashboard"
 layout: dashboard

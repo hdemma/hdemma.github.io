@@ -68,7 +68,7 @@ redirect_from:
   </section>
 
   <!-- About -->
-  <section class="content-section bg-light" id="about">
+  <section class="content-section bg-light" id="team">
     <div class="content-section-heading text-center">
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">The Team</h2>
     </div>
@@ -158,7 +158,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
 
   <!-- Portfolio -->
   {% assign sortedactivities = site.activities | sort: 'sequence' %}
-  <section class="content-section " id="portfolio">
+  <section class="content-section " id="activities">
     <div class="container-fluid">
       <div class="content-section-heading text-center">
         <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Project

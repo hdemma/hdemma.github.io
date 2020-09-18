@@ -1,5 +1,5 @@
 ---
-permalink: /carta-occupancy-dashboard/
+permalink: /cartadashboard/
 title: "CARTA Occupancy"
 excerpt: "CARTA Occupancy"
 layout: dashboard

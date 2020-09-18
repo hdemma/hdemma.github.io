@@ -1,5 +1,5 @@
 ---
-permalink: /wego-dashboard/
+permalink: /wegodashboard/
 title: "Wego Occupancy"
 excerpt: "Wego Occupancy"
 layout: dashboard

@@ -1,29 +1,29 @@
 # main links links
-main:
-  - title: "HDEMMA"
-    url: /energy.html
 
+- title: Home
+  url: /
+  sublinks:
+    - title: About us
+      url: /#aboutus
+    - title: The team
+      url: /#team
+    - title: Research Areas
+      url: /#research
+    - title: Activities
+      url: /#activities
+- title: "HDEMMA"
+  url: /energy.html
 
-  # - title: "Statistical Models"
-  #   url: /mathdoc/
-    
-  # - title: "Posts"
-  #   url: /post/
+- title: "Publications"
+  url: /publications/
 
-  - title: "Publications"
-    url: /publications/
+- title: "CARTA Energy Dashboard"
+  url: /energydashboard/
 
-  # - title: "Talks"
-  #   url: /talks/
-
-  - title: "CARTA Energy Dashboard"
-    url: /energy-dashboard/
+- title: "WeGo Occupancy Dashboard"
+  url: /wegodashboard/
   
-  - title: "WeGo Occupancy Dashboard"
-    url: /wego-dashboard/
-
-   
-  - title: "CARTA Occupancy Dashboard"
-    url: /carta-occupancy-dashboard/
+- title: "CARTA Occupancy Dashboard"
+  url: /cartadashboard/
 
 

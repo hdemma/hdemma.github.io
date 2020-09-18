@@ -8,22 +8,50 @@
     </div>
 </div>
 </div>
+ 
+
+
+
+  <!-- This finds the current page so it can be highlighted. -->
+
+{% for entry in site.data.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+    {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+    {% endif %}
+{% endfor %}
 
 <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand"><a class="js-scroll-trigger" href="{{ base_path }}/">{{ site.title }}</a></li>
-       {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+<a class="menu-toggle rounded" href="#">
+  <i class="fas fa-bars"></i>
+</a>
+<!-- Then we build the nav bar. -->
+<nav id="sidebar-wrapper">
+    <ul  class="sidebar-nav">
+    {% for entry in site.data.navigation %}
+        {% if entry.url == current_page %}
+            {% assign class = ' class="js-scroll-trigger text-primary"' %}
+        {% else %}
+          {% assign class = ' class="js-scroll-trigger"' %}
+            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+            {% assign current = null %}
+        {% endif %}
+        {% assign sublinks = entry.sublinks %}
+        {% if sublinks %}
+        <li class="sidebar-nav-item">
+            <a {{ class }}  href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+            <ul>
+                {% for sublink in sublinks %}
+                <li class="sidebar-nav-item text-white"><a  class="js-scroll-trigger"  href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% else %}
+        <li  class="sidebar-nav-item" ><a {{ class }}  href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endif %}
+    {% endfor %}
     </ul>
-  </nav>
-
+</nav>
