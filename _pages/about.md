@@ -75,7 +75,16 @@ redirect_from:
     <div class="container-fluid p-0 m-0">
       <div class="row p-0 m-0">
         <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto">
-          <img class="m-0 p-0" src="img/smartcities.png" alt="scopelab image">        
+            <a href="https://www.isis.vanderbilt.edu/"><img class="m-0 p-0 d-inline-flex" width="30%" src="img/logos/isis.png" alt="isis vu image"> </a>    
+          <a href="https://www.vanderbilt.edu/"><img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/vu.jpg" alt="vu image">    </a>  
+          <a href="https://www.uh.edu/"><img class="m-0 p-0  mr-2 d-inline-flex" width="30%" src="img/logos/uh.png" alt="uh image">  </a>    
+            <a href="https://www.pnnl.gov/"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/pnnl.png" alt="pnnl image">  </a> 
+          <a href="https://www.cornell.edu/"><img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/cornell.gif" alt="cornell image">  </a>    
+         <a href="https://www.washington.edu/about/?utm_source=whitebar&utm_medium=click&utm_campaign=campuses&utm_term=seattle"> <img class="m-0 p-0  mr-2 d-inline-flex " width="30%" src="img/logos/uw.png" alt="uw image">   </a>   
+          <a href="https://www.utc.edu/"><img class="m-0 p-0  mr-2 d-inline-flex " width="20%" src="img/logos/utc.png" alt="utc image">   </a> 
+         <a href="https://new.siemens.com/us/en/company/siemens-in-the-usa/princeton.html"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/siemens.jpg" alt="siemens image">    </a>     
+           <a href="http://www.carta-bus.org/">   <img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/carta.jpeg" alt="carta image">  </a> 
+          
         </div>
         <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
           {% for node in site.info %}
@@ -98,19 +107,19 @@ redirect_from:
     <div class="row">
       {% for area in sortedresearchareas %}
       <div class="col-xl-4 d-flex align-items-stretch">
-        <div class="card bg-secondary text-white border-1 p-2 m-2">
+        <div class="card bg-secondary text-white border-1 m-2 ">
           <h5 class="card-header text-center">{{ area.name }}</h5>
-          <div class="card-body">
+          <div class="card-body d-flex flex-column">
             {{ area.content | markdownify }}
             {% if area.learnmore == blank and area.learnmore == nil %}
-            <div class="text-center"><a class="btn btn-dark js-scroll-trigger"
+            <div class="text-center"><a class="align-self-end btn btn-dark  js-scroll-trigger"
                 href="#research">Learn More</a></div>
             {% else %}
-            <div class="text-center"><a class="btn btn-dark js-scroll-trigger"
+            <div class="text-center align-bottom"><a class="align-self-end btn btn-dark  js-scroll-trigger"
                 href="{{ area.learnmore }}">Learn More</a></div>
             {% endif %}
           </div>
-          <div class="card-footer text-white text-center">Funding Source: {{
+          <div class="card-footer text-white text-center">Funding: {{
             area.funding }}</div>
         </div>
       </div>
@@ -118,9 +127,45 @@ redirect_from:
     </div>
   </section>
 
+  
+  <section class="content-section bg-light" id="about">
+    <div class="content-section-heading text-center">
+      <h2 class="mdc-typography--headline2 text-center ml-1 pl-1">Smart and Connected Communities</h2>
+    </div>
+    <div class="container-fluid p-2 m-2">
+      <div  id="circle-shape-example p-2 m-2">             
+        <img class="d-none d-md-block float-left pr-3" width="30%" src="img/smartcities.png" alt="scopelab image">   
+        <p class="card-text text-justify   mr-4"> Our efforts are part of the research progress being made in the area of Smart and Connected Communities. Smart and connected communities (SCC) as a research area lies at the intersection of
+the Social Sciences, Artificial Intelligence, Machine Learning, Cyber-Physical Systems, Civil
+infrastructures, and the Data Sciences. This research area is being enabled by the rapid and
+transformational changes driven by rapid innovations in smart sensors and social networks.
+Smart sensors, such as cameras, air quality monitors, which are now embedded in almost
+every physical device and system we use, from watches and smart phones to automobiles,
+homes, roads and workplaces. Coupled with emerging new modes of networking, new
+algorithms for data analytics and new paradigms of distributed computing like fog computing,
+these sensors create an “internet of things” (IoT) that provide endless opportunities for
+innovation and improving the quality of life, such as improved transportation with reduced
+congestion and more efficient uses of energy and water. All this is further enhanced by
+advances in web technologies that has given rise to social networks that cover a wide variety of
+topics and provide connectivity and information to large segments of urban and rural
+populations. The effect of these innovations can be seen in a number of diverse domains
+including, transportation, energy, emergency response, and health care, to name a few, including the transit related efforts of our team.  </p>
+    <p class="card-text text-justify mr-4"> In general, the research in this area while  providing opportunities also create new challenges brought about by the need for
+human integration into the typical cyber-physical system feedback loop. This integration creates
+uncertainties in the nature and effect of control decisions, which cannot be studied by traditional
+control-theory approaches, requiring a study of the these feedback loops within a framework of
+behavioral economics and game theory. Another interesting area of research in this
+neighborhood is the study of trustworthiness of data-driven decision making, which is often the
+de facto approach taken in this area because of the heterogeneity of the physical processes
+interacting at various time scales in SCC systems. Similarly, fairness is also becoming a big
+issue that depends on how and where the data used for decision making is being collected. Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation Page.</a></p>        
+      </div>
+    </div>
+  </section>
+
   <!-- Portfolio -->
   {% assign sortedactivities = site.activities | sort: 'sequence' %}
-  <section class="content-section bg-light" id="portfolio">
+  <section class="content-section " id="portfolio">
     <div class="container-fluid">
       <div class="content-section-heading text-center">
         <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Project
