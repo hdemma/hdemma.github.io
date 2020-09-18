@@ -53,17 +53,16 @@ redirect_from:
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">About us</h2>
     </div>
     <div class="container-fluid p-2 m-2">
-        We are a research team that collaborates with Chattanooga Area
-            Regional Transit Authority (CARTA) and Nashville WeGo to design
+        We are a research team that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
             efficient transit operation algorithms by using artificial intelligence and
             real-time data analysis at scale. This includes reinforcement
-            learning, Monte-Carlo tree search, and operations research-based
+            learning, Monte-Carlo tree search, and operations-research based
             optimization for system-wide integrated scheduling and dispatch of
             transit operations. As part of this work, we are also developing
-            models to estimate loading factors and real-time energy consumption
-            of mixed vehicle transit fleets and use those models to predict and
-            optimize operations for lowering overall energy impact while
-            ensuring the system-wide capacity remains unaffected.
+            models to estimate the load factors and real-time energy consumption
+            of mixed-vehicle transit fleets and use those models to predict and
+            optimize operations in order to lower overall energy impact while
+            ensuring that system-wide capacity remains unaffected.
       </div>
   </section>
 
