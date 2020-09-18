@@ -22,7 +22,7 @@ redirect_from:
               <div class="carousel-item align-items-center">
                 {% endif %}
                 {% if carousel.video %}
-                <video id="videoBanner" class="d-block w-100 p-0 m-0" autoplay
+                <video id="videoBanner" width="100%" class="d-block w-100 p-0 m-0" autoplay
                   loop muted>
                   <source src="{{ carousel.video }}" type="video/mp4" />
                 </video>
