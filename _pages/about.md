@@ -140,14 +140,14 @@ redirect_from:
             <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
         </div>
         <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
-   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is being enabled by the rapid and transformational changes driven by rapid innovations in smart sensors such as cameras, air quality monitors, which are now embedded in almost
+   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is enabled by the rapid and transformational changes driven by innovations in smart sensors, such as cameras and air quality monitors, which are now embedded in almost
 every physical device and system we use, from watches and smartphones to automobiles,
 homes, roads, and workplaces. Coupled with emerging new modes of networking, new
 algorithms for data analytics, and new paradigms of distributed computing like fog computing,
-these sensors create an “internet of things” (IoT) that provide endless opportunities for
+these sensors create an “Internet of Things” (IoT) that provide endless opportunities for
 innovation and improving the quality of life, such as improved transportation with reduced
-congestion and more efficient uses of energy and water. The effect of these innovations can be seen in a number of diverse domains including, transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
-Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation Page.</a> </p>
+congestion and more efficient use of energy and water. The effect of these innovations can be seen in a number of diverse domains, such as transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
+Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation page.</a> </p>
         </div>
       </div>
     </div>
