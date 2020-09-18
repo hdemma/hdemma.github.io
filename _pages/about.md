@@ -128,39 +128,32 @@ redirect_from:
   </section>
 
   
-  <section class="content-section bg-light" id="about">
+ 
+
+ 
+  <section class="content-section bg-light" id="scc">
     <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 text-center ml-1 pl-1">Smart and Connected Communities</h2>
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Smart and Connected Communities</h2>
     </div>
-    <div class="container-fluid p-2 m-2">
-      <div  id="circle-shape-example p-2 m-2">             
-        <img class="d-none d-md-block float-left pr-3" width="30%" src="img/smartcities.png" alt="scopelab image">   
-        <p class="card-text text-justify   mr-4"> Our efforts are part of the research progress being made in the area of Smart and Connected Communities. Smart and connected communities (SCC) as a research area lies at the intersection of
-the Social Sciences, Artificial Intelligence, Machine Learning, Cyber-Physical Systems, Civil
-infrastructures, and the Data Sciences. This research area is being enabled by the rapid and
-transformational changes driven by rapid innovations in smart sensors and social networks.
-Smart sensors, such as cameras, air quality monitors, which are now embedded in almost
-every physical device and system we use, from watches and smart phones to automobiles,
-homes, roads and workplaces. Coupled with emerging new modes of networking, new
-algorithms for data analytics and new paradigms of distributed computing like fog computing,
+    <div class="container-fluid p-0 m-0">
+      <div class="row p-0 m-0">
+        <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto">
+            <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
+        </div>
+        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
+   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is being enabled by the rapid and transformational changes driven by rapid innovations in smart sensors such as cameras, air quality monitors, which are now embedded in almost
+every physical device and system we use, from watches and smartphones to automobiles,
+homes, roads, and workplaces. Coupled with emerging new modes of networking, new
+algorithms for data analytics, and new paradigms of distributed computing like fog computing,
 these sensors create an “internet of things” (IoT) that provide endless opportunities for
 innovation and improving the quality of life, such as improved transportation with reduced
-congestion and more efficient uses of energy and water. All this is further enhanced by
-advances in web technologies that has given rise to social networks that cover a wide variety of
-topics and provide connectivity and information to large segments of urban and rural
-populations. The effect of these innovations can be seen in a number of diverse domains
-including, transportation, energy, emergency response, and health care, to name a few, including the transit related efforts of our team.  </p>
-    <p class="card-text text-justify mr-4"> In general, the research in this area while  providing opportunities also create new challenges brought about by the need for
-human integration into the typical cyber-physical system feedback loop. This integration creates
-uncertainties in the nature and effect of control decisions, which cannot be studied by traditional
-control-theory approaches, requiring a study of the these feedback loops within a framework of
-behavioral economics and game theory. Another interesting area of research in this
-neighborhood is the study of trustworthiness of data-driven decision making, which is often the
-de facto approach taken in this area because of the heterogeneity of the physical processes
-interacting at various time scales in SCC systems. Similarly, fairness is also becoming a big
-issue that depends on how and where the data used for decision making is being collected. Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation Page.</a></p>        
+congestion and more efficient uses of energy and water. The effect of these innovations can be seen in a number of diverse domains including, transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
+Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation Page.</a> </p>
+        </div>
       </div>
     </div>
+    <!-- <div class="text-center">    
+          <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
   </section>
 
   <!-- Portfolio -->
