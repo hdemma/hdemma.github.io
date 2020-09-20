@@ -52,7 +52,7 @@ redirect_from:
     <div class="content-section-heading text-center">
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">About Us</h2>
     </div>
-    <div class="container-fluid p-2 m-2">
+    <div class="container-fluid ">
         We are a research team that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
             efficient transit operation algorithms by using artificial intelligence and
             real-time data analysis at scale. This includes reinforcement
@@ -84,7 +84,7 @@ redirect_from:
          <a href="https://new.siemens.com/us/en/company/siemens-in-the-usa/princeton.html"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/siemens.jpg" alt="siemens image">    </a>     
            <a href="http://www.carta-bus.org/">   <img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/carta.jpeg" alt="carta image">  </a> 
         </div>
-        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
+        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto text-card-justify">
           {% for node in site.info %}
           {{ node.content| markdownify }}
           {% endfor %}
@@ -105,9 +105,9 @@ redirect_from:
     <div class="row">
       {% for area in sortedresearchareas %}
       <div class="col-xl-4 d-flex align-items-stretch">
-        <div class="card bg-secondary text-white border-1 m-2 ">
+        <div class="card bg-secondary text-white border-1 m-1 ">
           <h5 class="card-header text-center">{{ area.name }}</h5>
-          <div class="card-body d-flex flex-column">
+          <div class="card-body d-flex flex-column text-card-justify">
             {{ area.content | markdownify }}
             {% if area.learnmore == blank and area.learnmore == nil %}
             <div class="text-center"><a class="align-self-end btn btn-dark  js-scroll-trigger"
