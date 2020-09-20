@@ -41,13 +41,13 @@ Openstreet map dataset provides various shapefiles required for geo-spatial anal
 
 These files are available as listed below. To understand the differences between these files please visit  the following [page](https://wiki.openstreetmap.org/wiki/Shapefiles).
 
-Folder Name: [Dataset/OSM](Dataset/OSM)
+Folder Name: [files/dataset/OSM](files/dataset/OSM)
 
-- [chattanooga_osm.shp](Dataset/OSM/chattanooga_osm.shp)
-- [chattanooga_osm.shx](Dataset/OSM/chattanooga_osm.shx)
-- [chattanooga_osm.cpg](Dataset/OSM/chattanooga_osm.cpg)
-- [chattanooga_osm.prj](Dataset/OSM/chattanooga_osm.prj)
-- [chattanooga_osm.dbf](Dataset/OSM/chattanooga_osm.dbf)
+- [chattanooga_osm.shp](files/dataset/OSM/chattanooga_osm.shp)
+- [chattanooga_osm.shx](files/dataset/OSM/chattanooga_osm.shx)
+- [chattanooga_osm.cpg](files/dataset/OSM/chattanooga_osm.cpg)
+- [chattanooga_osm.prj](files/dataset/OSM/chattanooga_osm.prj)
+- [chattanooga_osm.dbf](files/dataset/OSM/chattanooga_osm.dbf)
 
 ### Vehicle Telemetry Data
 
@@ -93,16 +93,16 @@ The figure below summarizes these steps
 ![Prediction Workflow](img/energypredictionworkflow.png)
 
 ### Brief Description of Models
-- [Different Models](/Notebooks/Macro_Prediction_Models/readme.md). 
+- [Different Models](/files/notebooks/Macro_Prediction_Models/readme.md). 
 
 ### Notebooks showing the Prediction Results
 
-- [Electric Vehicles](/Notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//Notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
+- [Electric Vehicles](/files/notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//files/notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
 
 ### Data Samples for Energy Prediction Models
 
-- [CSV of Electric Vehicle Data](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
-- [CSV of Diesel Vehicle Data](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
+- [CSV of Electric Vehicle Data](files/dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
+- [CSV of Diesel Vehicle Data](files/dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
 
 ### Publications
 
@@ -122,12 +122,12 @@ The models cover three different driving situations: regenerative braking (accel
 
 ### Notebooks showing the Micro Prediction Models
 
-- [Electric Vehicles](/Notebooks/Micro_Prediction_Models/EbusModel/Micro_EBUS_model.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//Notebooks/Micro_Prediction_Models/EBusModel/Micro_EBUS_model.ipynb)
+- [Electric Vehicles](/files/notebooks/Micro_Prediction_Models/EbusModel/Micro_EBUS_model.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//files/notebooks/Micro_Prediction_Models/EBusModel/Micro_EBUS_model.ipynb)
 
 
 ### Data Samples for Micro Prediction Models
-- [CSV of Electric Vehicle Data](Dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
-- [CSV of Diesel Vehicle Data](Dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
+- [CSV of Electric Vehicle Data](files/dataset/Electric_Vehicles/Electric_Vehicles_Final_Training_Samples.csv)
+- [CSV of Diesel Vehicle Data](files/dataset/Diesel_Vehicles/Diesel_Vehicles_Final_Training_Samples.csv)
 
 
 ### Publications
