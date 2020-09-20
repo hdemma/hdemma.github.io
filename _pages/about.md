@@ -66,6 +66,67 @@ redirect_from:
       </div>
   </section>
 
+
+  <!-- Research Areas -->
+  {% assign sortedresearchareas = site.researchareas | sort: 'sequence' %}
+  <section class="content-section" id="research">
+    <div class="content-section-heading text-center">
+      <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Research
+        Areas</h2>
+    </div>
+    <div class="row">
+      {% for area in sortedresearchareas %}
+      <div class="col-xl-4 d-flex align-items-stretch">
+        <div class="card bg-light  border-1 m-1 ">
+          <h5 class="card-header text-center">{{ area.name }}</h5>
+          <div class="card-body d-flex flex-column text-card-justify">
+            {{ area.content | markdownify }}
+            {% if area.learnmore == blank and area.learnmore == nil %}
+            <div class="text-center"><a class="align-self-end btn btn-dark  js-scroll-trigger"
+                href="#research">Learn More</a></div>
+            {% else %}
+            <div class="text-center align-bottom"><a class="align-self-end btn btn-dark  js-scroll-trigger"
+                href="{{ area.learnmore }}">Learn More</a></div>
+            {% endif %}
+          </div>
+          <div class="card-footer  text-center">Funding: {{
+            area.funding }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  
+ 
+
+ 
+  <section class="content-section" id="scc">
+    <div class="content-section-heading text-center">
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Smart and Connected Communities</h2>
+    </div>
+    <div class="container-fluid p-1 m-1">
+      <div class="row p-0 m-0">
+        <div class="col-sm-6 col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
+            <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
+        </div>
+        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
+   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is enabled by the rapid and transformational changes driven by innovations in smart sensors, such as cameras and air quality monitors, which are now embedded in almost
+every physical device and system we use, from watches and smartphones to automobiles,
+homes, roads, and workplaces. Coupled with emerging new modes of networking, new
+algorithms for data analytics, and new paradigms of distributed computing like fog computing,
+these sensors create an “Internet of Things” (IoT) that provide endless opportunities for
+innovation and improving the quality of life, such as improved transportation with reduced
+congestion and more efficient use of energy and water. The effect of these innovations can be seen in a number of diverse domains, such as transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
+Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation page.</a> </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="text-center">    
+          <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
+  </section>
+
+
   <!-- About -->
   <section class="content-section bg-light text-center" id="team">
     <div class="content-section-heading text-center">
@@ -88,65 +149,6 @@ redirect_from:
           {% for node in site.info %}
           {{ node.content| markdownify }}
           {% endfor %}
-        </div>
-      </div>
-    </div>
-    <!-- <div class="text-center">    
-          <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
-  </section>
-
-  <!-- Research Areas -->
-  {% assign sortedresearchareas = site.researchareas | sort: 'sequence' %}
-  <section class="content-section" id="research">
-    <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Research
-        Areas</h2>
-    </div>
-    <div class="row">
-      {% for area in sortedresearchareas %}
-      <div class="col-xl-4 d-flex align-items-stretch">
-        <div class="card bg-secondary text-white border-1 m-1 ">
-          <h5 class="card-header text-center">{{ area.name }}</h5>
-          <div class="card-body d-flex flex-column text-card-justify">
-            {{ area.content | markdownify }}
-            {% if area.learnmore == blank and area.learnmore == nil %}
-            <div class="text-center"><a class="align-self-end btn btn-dark  js-scroll-trigger"
-                href="#research">Learn More</a></div>
-            {% else %}
-            <div class="text-center align-bottom"><a class="align-self-end btn btn-dark  js-scroll-trigger"
-                href="{{ area.learnmore }}">Learn More</a></div>
-            {% endif %}
-          </div>
-          <div class="card-footer text-white text-center">Funding: {{
-            area.funding }}</div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  
- 
-
- 
-  <section class="content-section bg-light" id="scc">
-    <div class="content-section-heading text-center">
-   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Smart and Connected Communities</h2>
-    </div>
-    <div class="container-fluid p-1 m-1">
-      <div class="row p-0 m-0">
-        <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
-            <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
-        </div>
-        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
-   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is enabled by the rapid and transformational changes driven by innovations in smart sensors, such as cameras and air quality monitors, which are now embedded in almost
-every physical device and system we use, from watches and smartphones to automobiles,
-homes, roads, and workplaces. Coupled with emerging new modes of networking, new
-algorithms for data analytics, and new paradigms of distributed computing like fog computing,
-these sensors create an “Internet of Things” (IoT) that provide endless opportunities for
-innovation and improving the quality of life, such as improved transportation with reduced
-congestion and more efficient use of energy and water. The effect of these innovations can be seen in a number of diverse domains, such as transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
-Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation page.</a> </p>
         </div>
       </div>
     </div>
