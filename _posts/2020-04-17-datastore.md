@@ -267,7 +267,7 @@ itself where each component is managed by Pulsar's ZooKeeper. This makes
 it ideal for connecting to derived data stores such as MongoDB,
 PostgreSQL or Neo4J.
 
-![](/media/image7.png)
+![](/img/posts/mike/image7.png)
 
 Fig 1: This shows the separation of brokers and bookies (Apache
 BookKeeper nodes) in Apache Pulsar. By separating processing (ie the
@@ -278,7 +278,7 @@ additional storage is needed, additional bookies are added. The entire
 system is maintained by Apache ZooKeeper. (Ref. Apache Pulsar
 Documentation).
 
-![](/media/image4.png)
+![](/img/posts/mike/image4.png)
 
 Fig 2: This shows the Pulsar reader interface. The reader interface is
 ideal for adding or updating new client applications by providing easy
@@ -286,7 +286,7 @@ and customizable access to the distributed ledger. In this way new
 clients are customized according to the requirements of the new client,
 providing excellent flexibility in new client design.
 
-![](/media/image5.png)
+![](/img/posts/mike/image5.png)
 
 Fig 3: Source sink architecture. This architecture mimics the
 traditional smart broker - dumb client architecture. By letting Pulsar's
@@ -338,7 +338,7 @@ consistency on the data we plan to use Open Street Map (OSM) data to
 generate a transportation routing network stored in the Neo4J and then
 tie the urban data to the network as shown in figure 4.
 
-![](/media/image1.jpg)
+![](/img/posts/mike/image1.jpg)
 
 Fig 4: Spatial representation of data using a graph structure. Here we
 map incoming data (in this case dockless scooter trips) to an underlying
@@ -346,7 +346,7 @@ OpenStreetMap graph. This data view provides an optimal structure for
 representing highly related geospatial data and is used for complex
 traversal queries, such as routing.
 
-![](/media/image3.png)
+![](/img/posts/mike/image3.png)
 
 Fig 5: The global view of the proposed data architecture. The Pulsar
 Ledger provides a strongly consistent append only ledger of immutable
@@ -413,7 +413,7 @@ correct street-level information, such as the type of the road, whether
 there is a tunnel or not, whether the road is two-way or one-way, etc.
 
 
-![](/media/image6.png)
+![](/img/posts/mike/image6.png)
 
 To reliably predict fuel or energy consumption, we need to consider the
 elevation of the route on which the vehicle is travelling. When the bus
@@ -444,7 +444,7 @@ Linear Regression, Feed-Forward Neural Network, and Support Vector
 Regression. Among these approaches, Feed-Forward Neural Network works
 best with the lowest average mean squared error (0.072). The following
 figure shows the predicted and actual values for 50 samples.\
-![](/media/image2.png)
+![](/img/posts/mike/image2.png)
 
 We are working on extending our model to consider hybrid vehicles as well.
 

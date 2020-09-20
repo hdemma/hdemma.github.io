@@ -11,7 +11,7 @@ redirect_from:
 
   <div class="containerh-100 d-flex justify-content-center">
     <div class="row">
-      <div class="col-lg-12 col-sm-12 mx-auto">
+      <div class="col-lg-12 col-xl-11 col-sm-12 mx-auto">
         <div id="carouselData" class="carousel slide carousel-fade"
           data-ride="carousel" data-interval=8000>
           <div class="carousel-inner">
@@ -22,12 +22,12 @@ redirect_from:
               <div class="carousel-item align-items-center">
                 {% endif %}
                 {% if carousel.video %}
-                <video id="videoBanner" width="100%" class="d-block w-100 p-0 m-0" autoplay
+                <video id="videoBanner" width="100%" loading="lazy" class="d-block w-100 p-0 m-0" autoplay
                   loop muted>
                   <source src="{{ carousel.video }}" type="video/mp4" />
                 </video>
                 {% else %}
-                <img class="d-block w-100 p-0 m-0" src="{{ carousel.image }}"
+                <img class="d-block w-100 p-0 m-0" loading="lazy" src="{{ carousel.image }}"
                   alt="Slide">
                 {% endif %}
               </div>
@@ -67,13 +67,13 @@ redirect_from:
   </section>
 
   <!-- About -->
-  <section class="content-section bg-light" id="team">
+  <section class="content-section bg-light text-center" id="team">
     <div class="content-section-heading text-center">
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">The Team</h2>
     </div>
-    <div class="container-fluid p-0 m-0">
-      <div class="row p-0 m-0">
-        <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto">
+    <div class="container-fluid p-0 m-0 mx-auto">
+      <div class="row p-1 m-1">
+        <div class="col-lg-4 col-xl-3 p-0 ml-3 my-auto mx-auto">
             <a href="https://www.isis.vanderbilt.edu/"><img class="m-0 p-0 d-inline-flex" width="30%" src="img/logos/isis.png" alt="isis vu image"> </a>    
           <a href="https://www.vanderbilt.edu/"><img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/vu.jpg" alt="vu image">    </a>  
           <a href="https://www.uh.edu/"><img class="m-0 p-0  mr-2 d-inline-flex" width="30%" src="img/logos/uh.png" alt="uh image">  </a>    
@@ -83,7 +83,6 @@ redirect_from:
           <a href="https://www.utc.edu/"><img class="m-0 p-0  mr-2 d-inline-flex " width="20%" src="img/logos/utc.png" alt="utc image">   </a> 
          <a href="https://new.siemens.com/us/en/company/siemens-in-the-usa/princeton.html"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/siemens.jpg" alt="siemens image">    </a>     
            <a href="http://www.carta-bus.org/">   <img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/carta.jpeg" alt="carta image">  </a> 
-          
         </div>
         <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
           {% for node in site.info %}
@@ -134,9 +133,9 @@ redirect_from:
     <div class="content-section-heading text-center">
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Smart and Connected Communities</h2>
     </div>
-    <div class="container-fluid p-0 m-0">
+    <div class="container-fluid p-1 m-1">
       <div class="row p-0 m-0">
-        <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto">
+        <div class="col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
             <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
         </div>
         <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">

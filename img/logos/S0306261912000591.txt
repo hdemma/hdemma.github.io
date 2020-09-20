@@ -1,0 +1,11 @@
+Tiago Sousa, Hugo Morais, João Soares, Zita Vale,
+Day-ahead resource scheduling in smart grids considering Vehicle-to-Grid and network constraints,
+Applied Energy,
+Volume 96,
+2012,
+Pages 183-193,
+ISSN 0306-2619,
+https://doi.org/10.1016/j.apenergy.2012.01.053.
+(http://www.sciencedirect.com/science/article/pii/S0306261912000591)
+Abstract: Energy resource scheduling becomes increasingly important, as the use of distributed resources is intensified and massive gridable vehicle use is envisaged. The present paper proposes a methodology for day-ahead energy resource scheduling for smart grids considering the intensive use of distributed generation and of gridable vehicles, usually referred as Vehicle-to-Grid (V2G). This method considers that the energy resources are managed by a Virtual Power Player (VPP) which established contracts with V2G owners. It takes into account these contracts, the users’ requirements subjected to the VPP, and several discharge price steps. Full AC power flow calculation included in the model allows taking into account network constraints. The influence of the successive day requirements on the day-ahead optimal solution is discussed and considered in the proposed model. A case study with a 33 bus distribution network and V2G is used to illustrate the good performance of the proposed method.
+Keywords: Day-ahead scheduling; Distributed generation; Energy resource management; Smart grid; Vehicle-to-Grid; Virtual power player

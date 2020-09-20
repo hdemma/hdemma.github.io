@@ -93,11 +93,11 @@ The figure below summarizes these steps
 ![Prediction Workflow](img/energypredictionworkflow.png)
 
 ### Brief Description of Models
-- [Different Models](Macro_Prediction_Models/readme.md). 
+- [Different Models](/Notebooks/Macro_Prediction_Models/readme.md). 
 
 ### Notebooks showing the Prediction Results
 
-- [Electric Vehicles](Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
+- [Electric Vehicles](/Notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//Notebooks/Macro_Prediction_Models/Prediction_Script_Electric.ipynb)
 
 ### Data Samples for Energy Prediction Models
 
@@ -122,7 +122,7 @@ The models cover three different driving situations: regenerative braking (accel
 
 ### Notebooks showing the Micro Prediction Models
 
-- [Electric Vehicles](Micro_Prediction_Models/EbusModel/Micro_EBUS_model.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master/Micro_Prediction_Models/EBusModel/Micro_EBUS_model.ipynb)
+- [Electric Vehicles](/Notebooks/Micro_Prediction_Models/EbusModel/Micro_EBUS_model.ipynb). It is also available on [Google Colab](https://colab.research.google.com/github/hdemma/hdemma.github.io/blob/master//Notebooks/Micro_Prediction_Models/EBusModel/Micro_EBUS_model.ipynb)
 
 
 ### Data Samples for Micro Prediction Models
