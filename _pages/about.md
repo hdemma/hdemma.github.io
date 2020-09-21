@@ -30,6 +30,11 @@ redirect_from:
                 <img class="d-block w-100 p-0 m-0" loading="lazy" src="{{ carousel.image }}"
                   alt="Slide">
                 {% endif %}
+                 {% if carousel.text %}
+                 <div class="carousel-caption d-none d-md-block">
+                 <p> {{ carousel.text }} </p>
+                 </div>
+                 {% endif %}
               </div>
               {% endfor %}
             </div>
