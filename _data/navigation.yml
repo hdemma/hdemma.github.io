@@ -5,10 +5,10 @@
   sublinks:
     - title: About Us
       url: /#aboutus
+    - title: Focus Areas
+      url: /#research
     - title: Team
       url: /#team
-    - title: Research Areas
-      url: /#research
     - title: Activities
       url: /#activities
 - title: "HD-EMMA"

@@ -76,7 +76,7 @@ redirect_from:
   {% assign sortedresearchareas = site.researchareas | sort: 'sequence' %}
   <section class="content-section" id="research">
     <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Research
+      <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Focus
         Areas</h2>
     </div>
     <div class="row">
@@ -171,7 +171,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
       </div>
       <div class="row no-gutters justify-content-center">
         {% for act in sortedactivities %}
-        <div class="col-lg-6 col-xl-5 p-xl-3 m-xl-3">
+        <div class="col-sm-10 col-lg-5 col-xl-5 p-lg-1 m-lg-1">
           {% if act.link != blank or act.link != nil %}
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{ act.link }}"></iframe>
