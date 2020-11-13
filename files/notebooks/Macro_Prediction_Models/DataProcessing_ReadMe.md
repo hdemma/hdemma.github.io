@@ -22,7 +22,7 @@ We also one-hot encode the different road types. Then we also prepare samples wh
 
 Here, we aggregate elevation for starting and ending location of each sample.
 
-# addingHourlyTraffic.ipynb
+# addHourlyWeather.ipynb
 
 We aggregate hourly average of different weather parameters (humidity, temperature, visibility, etc.)
 
