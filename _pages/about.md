@@ -52,6 +52,8 @@ redirect_from:
         </div>
       </div>
     </div>
+
+
   
   <section class="content-section" id="aboutus">
     <div class="content-section-heading text-center">
@@ -71,6 +73,18 @@ redirect_from:
       </div>
   </section>
 
+  <section class="content-section" id="updates">
+  <div class="content-section-heading text-justify">
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">News and Updates</h2>
+   <ul class="fa-ul">
+  {% for update in site.data.updates %}
+  <li><span class="fa-li"><i class="fas fa-bookmark"></i></span>{{ update.text | markdownify }}</li>
+  {% if update.active %}
+  {% endif %}
+  {% endfor %}
+  </ul>
+   </div>
+   </section>
 
   <!-- Research Areas -->
   {% assign sortedresearchareas = site.researchareas | sort: 'sequence' %}
@@ -102,7 +116,6 @@ redirect_from:
     </div>
   </section>
 
-  
  
 
  
