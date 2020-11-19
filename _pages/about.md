@@ -76,6 +76,8 @@ redirect_from:
   <section class="content-section" id="updates">
   <div class="content-section-heading text-justify">
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">News and Updates</h2>
+    </div>
+    <div class="container-fluid">
    <ul class="fa-ul">
   {% for update in site.data.updates %}
   <li><span class="fa-li">
