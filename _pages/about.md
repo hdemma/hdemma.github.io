@@ -78,7 +78,13 @@ redirect_from:
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">News and Updates</h2>
    <ul class="fa-ul">
   {% for update in site.data.updates %}
-  <li><span class="fa-li"><i class="fas fa-bookmark"></i></span>{{ update.text | markdownify }}</li>
+  <li><span class="fa-li">
+  {% if update.presentation %}
+    <i class="fas fa-file-powerpoint">
+    {% else %}
+  <i class="fas fa-bookmark">
+    {% endif %}
+  </i></span>{{ update.text | markdownify }}</li>
   {% if update.active %}
   {% endif %}
   {% endfor %}

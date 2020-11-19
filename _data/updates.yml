@@ -1,14 +1,26 @@
-- text: Our paper [**Data-Driven Prediction and Optimization of Energy Use forTransit Fleets of Electric and ICE Vehicles**](/files/aymantoit2020.pdf) describing the HDEMMA project was recently accepted to be published at Transactions on Internet Technology (TOIT). 
+- text: Prof. Laszka presented  [**Optimizing the Energy Usage of EV's and ICEV's in Public Transportation**](https://youtu.be/HbfQWZUWTGQ) at the UH Energy Electric Vehicle Webinar Series on November 19th, 2020. The talk summarizes the key results from our [HDEMMA project](/energy).
+  active: true
+  presentation: true
+  date: Nov 2020
+  sequence: 4
+
+- text: Our paper [**Data-Driven Prediction and Optimization of Energy Use forTransit Fleets of Electric and ICE Vehicles**](/files/aymantoit2020.pdf) describing the HDEMMA project was accepted to be published at ACM Transactions on Internet Technology (TOIT). 
   active: true
   date: Nov 2020
-  sequence: 2
+  sequence: 3
 
 - text: Our paper [**Hybrid electric buses fuel consumption prediction based on real-world driving data**](/files/microprediction2020.pdf) describing the microprediction models was accepted to be published at Transportation Research Part D.
   active: true
   date: Nov 2020
-  sequence: 1
+  sequence: 2
 
 - text: Our paper [**Impact of COVID-19 on Public Transit Accessibility and Ridership**](https://arxiv.org/pdf/2008.02413.pdf) analyzing the impact of covid-19 on pubic transit in Nashville and Chattanooga was accepted at the TRB Conference. 
   active: true
   date: Oct 2020
-  sequence: 2
+  sequence: 1
+
+- text: We Presented an overview of the [**Energy Estimation and System Optimization project**](/files/AMRPresentation.pdf) at the DOE Annual Merit Review in June 2020.
+  active: true
+  presentation: true
+  date: June 2020
+  sequence: 1
