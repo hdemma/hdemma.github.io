@@ -4,6 +4,8 @@ permalink: /talks/
 author_profile: true
 ---
 
+# Talks and articles about our work
+
 * Our project was discussed in an article by [Smart Cities Dive](https://www.smartcitiesdive.com/news/doe-usdot-issue-525m-in-project-grants-to-advance-transit-tech/587704/) on October 26 2020.
 
 * Our new National Science Foundation Project on Public Transit was featured by [Vanderbilt News](https://news.vanderbilt.edu/2020/09/17/vanderbilt-researcher-receives-3-9-million-in-grants-to-redesign-regional-transit-system-using-artificial-intelligence-community-engagement/) in September 2020
