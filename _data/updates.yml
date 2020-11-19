@@ -1,4 +1,4 @@
-- text: Prof. Laszka presented [**Optimizing the Energy Usage of EV's and ICEV's in Public Transportation**](https://youtu.be/HbfQWZUWTGQ) at the UH Energy Electric Vehicle Webinar Series on November 19th, 2020. The talk summarizes key results from our [HDEMMA project](/energy).
+- text: Prof. Laszka presented [**Optimizing the Energy Usage of EV's and ICEV's in Public Transportation**](https://youtu.be/HbfQWZUWTGQ) at the UH Energy Electric Vehicle Webinar Series on November 19th, 2020. The talk summarizes key results from our [HD-EMMA project](/energy).
   active: true
   presentation: true
   date: Nov 2020
@@ -9,7 +9,7 @@
   date: Nov 2020
   sequence: 3
 
-- text: Our paper [**Hybrid Electric Buses Fuel Consumption Prediction Based on Real-World Driving Data**](/files/microprediction2020.pdf) describing microprediction models was accepted to be published at Transportation Research Part D.
+- text: Our paper [**Hybrid Electric Buses Fuel Consumption Prediction Based on Real-World Driving Data**](/files/microprediction2020.pdf) describing microprediction models was accepted to be published in Transportation Research Part D.
   active: true
   date: Nov 2020
   sequence: 2
