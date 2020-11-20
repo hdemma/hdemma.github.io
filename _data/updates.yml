@@ -2,6 +2,11 @@
   active: true
   presentation: true
   date: Nov 2020
+  sequence: 5
+
+- text: CARTA wins the [**sustainable transportation award**](https://www.chattanoogan.com/2020/11/19/418690/CARTA-Named-Sustainable-Transportation.aspx) given by Tennesee Department of Envrionment and Conversation (TDEC) .
+  active: true
+  date: Nov 2020
   sequence: 4
 
 - text: Our paper [**Data-Driven Prediction and Optimization of Energy Use for Transit Fleets of Electric and ICE Vehicles**](/files/aymantoit2020.pdf) describing the HD-EMMA project was accepted to be published in the ACM Transactions on Internet Technology (TOIT). 
