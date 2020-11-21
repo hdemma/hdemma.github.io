@@ -1,10 +1,10 @@
 ---
-title: "Talks and articles about our work"
+title: "Talks and mentions about our work"
 permalink: /talks/
 author_profile: true
 ---
 
-# Talks and articles about our work
+# Talks and Mentions
 
 * [CARTA was named the sustainable transportation award winner](https://www.chattanoogan.com/2020/11/19/418690/CARTA-Named-Sustainable-Transportation.aspx) by TDEC in Nov 2020.
 
