@@ -1,5 +1,11 @@
 
-- text: Our paper [**Decision Support Framework for Grid-Aware Electric Bus Charge Scheduling**](/files/pettetisgt2020.pdf) was accepted for the Innovative Smart Grid Technologies Conference (ISGT) 2020. 
+
+- text: Three papers from our team were expected to be presented at various events in the AAAI 2021. [Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service](publications/#pubaaai21) was accepted for the main conference. [Efficient Data Management for Intelligent Urban Mobility Systems](publications/#pubwilbur21) and [Predicting Public Transportation Load to Estimate the Probability of Social Distancing Violations](publications/#pubjuan21) were accepted in the workhop on AI for urban mobility at the event.  
+  active: true
+  date: Dec 2020
+  sequence: 7
+
+- text: Our paper [**Decision Support Framework for Grid-Aware Electric Bus Charge Scheduling**](publications/#pubpettetisgt2020) was accepted for the Innovative Smart Grid Technologies Conference (ISGT) 2020. 
   active: true
   date: Dec 2020
   sequence: 6
@@ -17,12 +23,12 @@
   date: Nov 2020
   sequence: 4
 
-- text: Our paper [**Data-Driven Prediction and Optimization of Energy Use for Transit Fleets of Electric and ICE Vehicles**](/files/aymantoit2020.pdf) describing the HD-EMMA project was accepted to be published in the ACM Transactions on Internet Technology (TOIT). 
+- text: Our paper [**Data-Driven Prediction and Optimization of Energy Use for Transit Fleets of Electric and ICE Vehicles**](publications/#pubaymantoit2020) describing the HD-EMMA project was accepted to be published in the ACM Transactions on Internet Technology (TOIT). 
   active: true
   date: Nov 2020
   sequence: 3
 
-- text: Our paper [**Hybrid Electric Buses Fuel Consumption Prediction Based on Real-World Driving Data**](/files/microprediction2020.pdf) describing microprediction models was accepted to be published in Transportation Research Part D.
+- text: Our paper [**Hybrid Electric Buses Fuel Consumption Prediction Based on Real-World Driving Data**](publications/#pubmicroprediction2020) describing microprediction models was accepted to be published in Transportation Research Part D.
   active: true
   date: Nov 2020
   sequence: 2

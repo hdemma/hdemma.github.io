@@ -9,6 +9,14 @@ layout: single
 
    <section class="main">
     <a href="allpubs.html" class="my-button" style="color:white !important; text-decoration: none !important;"><span class="fas fa-print"></span>Printer Friendly</a>
+    {% assign year_string = "2021" %}
+   
+  <h2 onclick="myFunction({{ year_string }})"> <i id="{{ year_string }}click" class="fas fa-toggle-on" style="font-size: 70%;"></i> &nbsp;{{ year_string }}</h2> 
+      <div id="{{ year_string }}">
+    {% bibliography --query @*[year={{ year_string }}] %}
+    <hr>
+     </div>
+    
     {% assign year_string = "2020" %}
    
   <h2 onclick="myFunction({{ year_string }})"> <i id="{{ year_string }}click" class="fas fa-toggle-on" style="font-size: 70%;"></i> &nbsp;{{ year_string }}</h2> 

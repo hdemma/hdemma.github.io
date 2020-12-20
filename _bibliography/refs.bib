@@ -56,18 +56,7 @@ simulated case study from a mid-size U.S. city.},
   timestamp = {Wed, 21 Aug 2019 01:00:00 +0200},
   url       = {https://doi.org/10.1007/s10586-018-1708-z},
 }
-@InProceedings{sivagnanam2020minimizing,
-  author        = {Amutheezan Sivagnanam and Afiya Ayman and Michael Wilbur and Philip Pugliese and Abhishek Dubey and Aron Laszka},
-  title         = {Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service},
-  booktitle     = {Preprint at Arxiv},
-  year          = {2020},
-  abstract      = {Public transit can have significantly lower environmental impact than personal vehicles; however, it still uses a substantial amount of energy, causing air pollution and greenhouse gas emission. While electric vehicles (EVs) can reduce energy use, most public transit agencies have to employ them in combination with conventional, internal-combustion engine vehicles due to the high upfront costs of EVs. To make the best use of such a mixed fleet of vehicles, transit agencies need to optimize route assignments and charging schedules, which presents a challenging problem for large public transit networks. We introduce a novel problem formulation to minimize fuel and electricity use by assigning vehicles to transit trips and scheduling them for charging while serving an existing fixed-route transit schedule. We present an integer program for optimal discrete-time scheduling, and we propose polynomial-time heuristic algorithms and a genetic algorithm for finding solutions for larger networks. We evaluate our algorithms on the transit service of a mid-size U.S. city using operational data collected from public transit vehicles. Our results show that the proposed algorithms are scalable and achieve near-minimum energy use.},
-  archiveprefix = {arXiv},
-  eprint        = {2004.05146},
-  preprint      = {https://arxiv.org/abs/2004.05146},
-  primaryclass  = {cs.AI},
-}
-
+ 
 @InProceedings{chen2020review,
   author        = {Yuche Chen and Guoyuan Wu and Ruixiao Sun and Abhishek Dubey and Aron Laszka and Philip Pugliese},
   title         = {A Review and Outlook of Energy Consumption Estimation Models for Electric Vehicles},
@@ -192,5 +181,36 @@ between energy use and factors such as road and weather conditions."
   year     = {2020},
   abstract = {Due to the high upfront cost of electric vehicles, many public transit agencies can afford only mixed fleets of internal-combustion and electric vehicles. Optimizing the operation of such mixed fleets is challenging because it requires accurate trip-level predictions of electricity and fuel use as well as efficient algorithms for assigning vehicles to transit routes.  We present a novel framework for the data-driven prediction of trip-level energy use for mixed-vehicle transit fleets and for the optimization of vehicle assignments, which we evaluate using data collected from the bus fleet of CARTA, the public transit agency of Chattanooga, TN. We first introduce a data collection, storage, and processing framework for system-level and high-frequency vehicle-level transit data, including domain-specific data cleansing methods. We train and evaluate machine learning models for energy prediction, demonstrating that deep neural networks attain the highest accuracy. Based on these predictions, we formulate the problem of minimizing energy use through assigning vehicles to fixed-route transit trips. We propose an optimal integer program as well as efficient heuristic and meta-heuristic algorithms, demonstrating the scalability and performance of these algorithms numerically using the transit network of CARTA.},
 }
+
+@inproceedings{juan21,
+  title={Predicting Public Transportation Load to Estimate the Probability of Social Distancing Violations},
+  author={Juan Martinez and  Ayan Mukhopadhyay Afiya Ayman and  Michael Wilbur and Philip Pugliese and  Dan Freudberg and Aron Laszka  and Abhishek Dubey  },
+  booktitle={Proceedings of the Workshop on AI for Urban Mobility at the 35th AAAI Conference on Artificial Intelligence (AAAI-21)},
+  abstract={Public transit agencies struggle to maintain transit accessibility with reduced resources, unreliable ridership data, reduced vehicle capacities due to social distancing, and reduced services due to driver unavailability. In collaboration with transit agencies from two large metropolitan areas in the USA, we are designing novel approaches for addressing the afore-mentioned challenges by collecting accurate real-time ridership data, providing guidance to commuters, and performing operational optimization for public transit. We estimate rider-ship data using historical automated passenger counting data, conditional on a set of relevant determinants. Accurate ridership forecasting is essential to optimize the public transit schedule,  which is necessary to improve current fixed lines with on-demand transit. Also, passenger crowding has been a problem for public transportation since it deteriorates passengers' wellbeing and satisfaction. During the COVID-19 pandemic, passenger crowding has gained importance since it represents a  risk for social distancing violations. Therefore, we are creating optimization models to ensure that social distancing norms can be adequately followed while ensuring that the total demand for transit is met. We will then use accurate forecasts for operational optimization that includes \textit{(a)} proactive fixed-line schedule optimization based on predicted demand, \textit{(b)} dispatch of on-demand micro-transit, prioritizing at-risk populations, and \textit{(c)} allocation of vehicles to transit and cargo trips, considering exigent vehicle maintenance requirements (\textit{i.e.}, disinfection). Finally, this paper presents some initial results from our project regarding the estimation of ridership in public transit.},
+  year={2021}
+}
+
+@inproceedings{wilbur21,
+  title={Efficient Data Management for Intelligent Urban Mobility Systems},
+  author={Michael Wilbur and Philip Pugliese and Aron Laszka and Abhishek Dubey },
+  booktitle={Proceedings of the Workshop on AI for Urban Mobility at the 35th AAAI Conference on Artificial Intelligence (AAAI-21)},
+  abstract={Modern intelligent urban mobility applications are underpinned by large-scale, multivariate, spatiotemporal data streams. Working with this data presents unique challenges of data management, processing and presentation that is often overlooked by researchers. Therefore, in this work we present an integrated data management and processing framework for intelligent urban mobility systems currently in use by our partner transit agencies. We discuss the available data sources and outline our cloud-centric data management and stream processing architecture built upon open-source publish-subscribe and NoSQL data stores. We then describe our data-integrity monitoring methods. We then present a set of visualization dashboards designed for our transit agency partners. Lastly, we discuss how these tools are currently being used for AI-driven urban mobility applications that use these tools.},
+  year={2021}
+}
+
+@inproceedings{aaai21,
+  title={Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service},
+  author={Amutheezan Sivagnanam and Afiya Ayman and Michael Wilbur and Philip Pugliese and Abhishek Dubey and Aron Laszka },
+  booktitle={Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI-21)},
+  abstract={Affordable public transit services are crucial for communities since they enable residents to access employment, education, and other services. 
+Unfortunately, transit services that provide wide coverage tend to suffer from relatively low utilization, which results in high fuel usage per passenger per mile, leading to high operating costs and environmental impact.
+Electric vehicles (EVs) can reduce energy costs and environmental impact, but most public transit agencies have to employ them in combination with conventional, internal-combustion engine vehicles due to the high upfront costs of EVs. 
+To make the best use of such a mixed fleet of vehicles, transit agencies need to optimize route assignments and charging schedules, which presents a challenging problem for large transit networks. 
+We introduce a novel problem formulation to minimize fuel and electricity use by assigning vehicles to transit trips and scheduling them for charging, while serving an existing fixed-route transit schedule. 
+We present an integer program for optimal assignment and scheduling, and we propose polynomial-time heuristic and meta-heuristic algorithms for larger networks. We evaluate our algorithms on the public transit service of Chattanooga, TN using operational data collected from transit vehicles.  Our results show that the proposed algorithms are scalable and can reduce energy use and, hence, environmental impact and operational costs. 
+For Chattanooga, the proposed algorithms can save \$145,635 in energy costs and 576.7 metric tons of CO2 emission annually.},
+  year={2021}
+}
+
 
 @Comment{jabref-meta: databaseType:bibtex;}
