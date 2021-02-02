@@ -13,7 +13,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-dataset = pd.read_excel('E:/SUMO/RUIXIAO/newChattanooganet/Data/output/Porcessed_BYD751_dataset.xlsm', index_col=False)
+dataset = pd.read_excel('Porcessed_BYD751_dataset.xlsm', index_col=False)
 #print(dataset.head(6))
 dataset['Speed2'] = dataset['Speed'].pow(2)
 dataset['Speed3'] = dataset['Speed'].pow(3)
@@ -159,7 +159,7 @@ plt.show()
 # Prediction and plot results
 
 #read trajectory data that needs prediction
-trip = pd.read_csv("E:/SUMO/RUIXIAO/newChattanooganet/Data/output/Traj6-7/Route10G_trip152322020_060000.csv")
+trip = pd.read_csv("Route10G_trip152322020_060000.csv")
 trip['Speed']=trip['speed']*(0.01*3.6) 
 #km/h
 trip['Acceleration']=trip['acceleration']*(0.001)
