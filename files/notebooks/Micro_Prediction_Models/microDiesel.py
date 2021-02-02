@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 #read data
-df = pd.read_csv('C:/Users/15304/Downloads/Gillig145Feb2020W2.csv', index_col=False)
+df = pd.read_csv('Gillig145Feb2020W2.csv', index_col=False)
 print(len(df))
 df.columns
 
@@ -68,7 +68,7 @@ plt.show()
 #prdiction and plot results
 
 #read trajectory data that needs prediction
-trip060000 = pd.read_csv("E:/SUMO/RUIXIAO/newChattanooganet/Data/output/Traj6-7/Route10G_trip152322020_060000.csv")
+trip060000 = pd.read_csv("Route10G_trip152322020_060000.csv")
 trip060000['speed']=trip060000['speed']*(0.01*3.6) 
 #km/h
 trip060000['acceleration']=trip060000['acceleration']*(0.001) 
