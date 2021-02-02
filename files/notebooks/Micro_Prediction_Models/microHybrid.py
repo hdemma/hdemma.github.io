@@ -68,7 +68,7 @@ plt.show()
 #prdiction and plot results
 
 #read trajectory data that needs prediction
-trip = pd.read_csv("E:/SUMO/RUIXIAO/newChattanooganet/Data/output/Traj6-7/Route10G_trip152322020_060000.csv")
+trip = pd.read_csv("Route10G_trip152322020_060000.csv")
 trip['speed']=trip['speed']*(0.01*3.6) 
 #km/h
 trip['acceleration']=trip['acceleration']*(0.001) 
