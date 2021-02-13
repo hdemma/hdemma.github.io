@@ -11,4 +11,10 @@ Affordable public transit services are crucial for communities since they enable
 
 ## Source Code
 
+Energy Optimization Repository: 
+https://github.com/smarttransit-ai/EnergyOptCode-AAAI
+
 ## Dataset
+
+Supplementary data: 
+https://drive.google.com/drive/folders/1124x5bqvewFKvzQoG6k8w33DIHgVfcU_?usp=sharing
