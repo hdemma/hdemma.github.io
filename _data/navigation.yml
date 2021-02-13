@@ -11,8 +11,12 @@
       url: /#team
     - title: Activities
       url: /#activities
+
 - title: "HD-EMMA"
   url: /energy.html
+  sublinks:
+    - title: AAAI-21 paper
+      url: /energy/aaai21.html
 
 - title: "Publications"
   url: /publications/
