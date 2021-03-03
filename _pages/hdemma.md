@@ -73,7 +73,7 @@ The vehicle telemetry data is available for three diesel vehicles and three elec
 Using telemetry from the ViriCiti DataHub and external data sources, including weather, elevation, street-level maps, and traffic, the team trained and evaluated models for predicting energy as shown in the figure below. The key idea of macro prediction models is to develop planning foresight which can enable us to estimate the energy consumption of the whole fleet using macro data features such as road geometry, weather, traffic, and vehicle type. 
 
 {: .text-center}
-![Prediction Model](img/Prediction.png)
+![Prediction Model](/img/Prediction.png)
 
 
 For EVs, the team collected the following features: timestamp, GPS-based position (latitude and longitude), battery current (A), battery voltage (V), battery state of charge (%), and charging cable status (0 or 1). For diesel and hybrid vehicles, instead of battery data, the team collected fuel level (%) and the fuel used, in gallons. 
@@ -90,7 +90,7 @@ The team applied three different approaches for creating prediction models: line
 
 The figure below summarizes these steps
 
-![Prediction Workflow](img/energypredictionworkflow.png)
+![Prediction Workflow](/img/energypredictionworkflow.png)
 
 ### Brief Description of Models
 - [Different Models](/files/notebooks/Macro_Prediction_Models/readme.md). 
@@ -115,7 +115,7 @@ In addition to the macro energy models which are applicable for route-specific a
 
 For this purpose, we developed an ensemble of neural network-based EV bus prediction models that achieve better accuracy performance compared with regular regression models, and accuracy performance comparable to physics-based models. The decision tree of these models is shown below.
 
-![Micro Models](img/micromodels.png)
+![Micro Models](/img/micromodels.png)
 
 
 The models cover three different driving situations: regenerative braking (acceleration < -2 ft/s2); aggressive acceleration (acceleration > 2 ft/s2); and cruising (acceleration between -2 and 2 ft/s2). The accuracy of the three models outperforms the single model for predicting all driving conditions. This is because these three different scenarios are effectively three different modes, and energy consumption dynamics vary significantly between them. 
@@ -189,7 +189,7 @@ Our MongoDB view represents space through R-Tree geospatial indexing, a common s
 The graph view provides an efficient data structure for highly related spatial data and is provided for complex traversal queries, such as routing, of the data by storing geospatial network data. To provide consistency on the data we plan to use Open Street Map (OSM) data to generate a transportation routing network stored in the Neo4J and then tie the urban data to the network as shown in the figure below.
 
 
-![neo4j](img/osm.png)
+![neo4j](/img/osm.png)
 
 The modular nature of our data storage system makes it highly extensible. New data stores such as SQL, Document-based, specialized geospatial stores can be added and removed easily. Additionally, new data stores can quickly catch up to data by simply reading through the logs on the topics in which it subscribes to. This makes adding and removing new structures trivial. The same works for latency-sensitive client applications, which can attach directly to the distributed log or to structured data views that are optimized for various data schemas.
 
