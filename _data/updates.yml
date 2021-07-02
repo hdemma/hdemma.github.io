@@ -1,5 +1,11 @@
 
 
+
+- text: We are working on a customized transit simulation gym for analysis [Transit-Gym-A Simulation and Evaluation Engine for Analysis of Bus Transit Systems](https://arxiv.org/abs/2107.00105). The paper was accepted at the SmartComp 2021.  The github repository is available at [https://github.com/smarttransit-ai/transit-simulator](https://github.com/smarttransit-ai/transit-simulator).
+  active: true
+  date: Dec 2020
+  sequence: 7
+
 - text: Three papers from our team will be presented at various events in the AAAI 2021. [Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service](publications/#pubaaai21) was accepted for the main conference. [Efficient Data Management for Intelligent Urban Mobility Systems](publications/#pubwilbur21) and [Predicting Public Transportation Load to Estimate the Probability of Social Distancing Violations](publications/#pubjuan21) were accepted in the workhop on AI for urban mobility at the event.  
   active: true
   date: Dec 2020
