@@ -10,6 +10,13 @@
   date: May 2021
   sequence: 7
 
+
+- text: The [poster](files/sccpimeeting2021/MobilityForAllPoster.pdf) about our [smart transit](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1952011) work will appear at the 2021 SCC PI Meeting.
+  active: true
+  presentation: true
+  date: April 2021
+  sequence: 12
+
 - text: Three papers from our team will be presented at various events in the AAAI 2021. [Minimizing Energy Use of Mixed-Fleet Public Transit for Fixed-Route Service](publications/#pubaaai21) was accepted for the main conference. [Efficient Data Management for Intelligent Urban Mobility Systems](publications/#pubwilbur21) and [Predicting Public Transportation Load to Estimate the Probability of Social Distancing Violations](publications/#pubjuan21) were accepted in the workhop on AI for urban mobility at the event.  
   active: true
   date: Dec 2020
