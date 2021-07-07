@@ -1,0 +1,3 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+Nashville MTA,WeGo Public Transit,http://www.nashvillemta.org,America/Chicago,en,615-862-8833,
+Regional Transportation Authority of Middle Tennessee,Regional Transportation Authority of Middle Tennessee,http://www.rtarelaxandride.com,America/Chicago,en,615-862-8833,
